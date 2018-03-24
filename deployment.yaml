@@ -46,7 +46,7 @@ spec:
       subdomain: client-service
       containers:
       - name: client-service
-        image: hubtea/client-service:latest
+        image: ghost9087/client-service:latest
         env:
         - name: SPRING_PROFILES_ACTIVE
           value: dev
